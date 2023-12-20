@@ -1,0 +1,10 @@
+---
+- name: Playbook
+  hosts: all
+  become: yes
+  vars_files:
+  - user.yml
+  tasks:
+  - name: creating a user {{user3}}
+    user:
+      name: "{{user3}}"

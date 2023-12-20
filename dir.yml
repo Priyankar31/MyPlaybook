@@ -1,0 +1,10 @@
+---
+- name: Playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: creating a directory
+      file:
+        path: /home/ansadmin/swara/hari
+        state: directory
+

@@ -1,0 +1,22 @@
+172.31.40.136 | CHANGED | rc=0 >>
+total 16
+drwx------. 4 ansadmin ansadmin 124 Dec 14 07:01 .
+drwxr-xr-x. 7 root     root      71 Dec 15 04:49 ..
+drwx------. 3 ansadmin ansadmin  17 Dec 14 06:04 .ansible
+-rw-------. 1 ansadmin ansadmin 285 Dec 14 07:46 .bash_history
+-rw-r--r--. 1 ansadmin ansadmin  18 Jan 28  2023 .bash_logout
+-rw-r--r--. 1 ansadmin ansadmin 141 Jan 28  2023 .bash_profile
+-rw-r--r--. 1 ansadmin ansadmin 492 Jan 28  2023 .bashrc
+drwx------. 2 ansadmin ansadmin  29 Dec 14 05:31 .ssh
+-rw-r--r--. 1 ansadmin ansadmin   0 Dec 14 07:01 node1
+172.31.35.107 | CHANGED | rc=0 >>
+total 16
+drwx------. 4 ansadmin ansadmin 124 Dec 14 07:01 .
+drwxr-xr-x. 7 root     root      71 Dec 15 04:49 ..
+drwx------. 3 ansadmin ansadmin  17 Dec 14 06:11 .ansible
+-rw-------. 1 ansadmin ansadmin 310 Dec 15 04:48 .bash_history
+-rw-r--r--. 1 ansadmin ansadmin  18 Jan 28  2023 .bash_logout
+-rw-r--r--. 1 ansadmin ansadmin 141 Jan 28  2023 .bash_profile
+-rw-r--r--. 1 ansadmin ansadmin 492 Jan 28  2023 .bashrc
+drwx------. 2 ansadmin ansadmin  29 Dec 14 05:31 .ssh
+-rw-r--r--. 1 ansadmin ansadmin   0 Dec 14 07:01 node2

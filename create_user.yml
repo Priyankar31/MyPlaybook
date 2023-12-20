@@ -1,0 +1,8 @@
+---
+- name: Create new user
+  hosts: all
+  become: yes
+  tasks:
+  - name: Create a user rohit
+    user:
+      name: rahul

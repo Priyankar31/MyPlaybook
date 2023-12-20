@@ -1,0 +1,21 @@
+---
+- name: Stop and Uninstall Apache HTTP Server
+  hosts: all  # Replace 'your_target_host' with the hostname or IP address of the machine where httpd is installed
+  become: yes  # To escalate privileges using sudo
+
+  tasks:
+    - name: Stop Apache HTTP Server
+      service:
+        name: httpd
+        state: stopped
+
+    - name: Disable Apache HTTP Server on system boot
+      service:
+        name: httpd
+        enabled: no
+
+    - name: Uninstall Apache HTTP Server
+      package:
+        name: httpd
+        state: absent
+
